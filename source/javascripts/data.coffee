@@ -1,4 +1,4 @@
-scenes = [
+window.scenes = [
   {
     country: "France"
     when: 1963
@@ -28,6 +28,7 @@ scenes = [
   {
     country: "Chile"
     movement: "Pinochet coup, 9/11"
+    when: 1973
     drug_of_choice: "bigoteado"
     perversion: "snuff movies"
     national_cliches: ["chinegros"]
@@ -44,6 +45,7 @@ scenes = [
   {
     country: "Hungary"
     movement: "Uprising against the communist regime"
+    when: 1956
     perversion: "cosmetic surgery"
     drug_of_choice: "Unicum"
     national_cliches: ["mathematics"]
@@ -122,29 +124,37 @@ scenes = [
   }
 ]
 
-exchange_programs = [
-  "Rotary exchange student",
+window.exchange_programs = [
+  "Rotary exchange student program",
   "Lions Club International Exchange",
   "Gap year holiday"
 ]
 
-heroes = [
+window.heroes = [
   {
-    region: "mid-west"
+    region: "the Mid-West"
     type: "farm boy"
-    character: "noble"
+    character: "nobility"
     fatal_flaw: "naivity"
   },
   {
     region: "Florida"
     type: "trouble-maker"
-    character: "flawed"
+    character: "flawed character"
     fatal_flaw: "stupidity"
   },
   {
     region: "New Hampshire"
     type: "Ivy League student"
-    character: "preppy"
+    character: "preppiness"
     fatal_flaw: "arrogance"
   }
+]
+
+window.buttons = [
+  "Already been done",
+  "Not culturally insensitive enough",
+  "That's not gonna get my budget approved",
+  "Needs more stereotypes",
+  "Perhaps, but needs more sex"
 ]

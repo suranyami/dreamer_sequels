@@ -4,7 +4,33 @@ title: Sequels to "The Dreamers"
 .welcome
   %h1 Sequels to "The Dreamers"
 
-  %p.description
+  #intro.panel.panel-default
+    .panel-body
+      %p Do you need a film script that:
+      %ul
+        %li has cultural insensitivity?
+        %li trivializes significant political movements?
+        %li strengthens racial stereotypes?
+        %li reminds people that foreign intellectual stuff might look fascinating, but it's not like the good ole US of A?
+        %li has attractive young people having sex?
 
-  :coffee
-    window.generate()
+      %p
+        In short, do you need a sequel to
+        %a{href: 'http://www.imdb.com/title/tt0309987/?ref_=fn_al_tt_1'} The Dreamers
+        ?
+      %p Well look no further! Our patented templated film sinopsis generator can save you valuable minutes.
+
+  .panel.panel-default.active
+    .panel-heading
+      %h2.panel-title The Dreamers: the Sequel
+
+    .panel-body
+      %p#description.lead
+
+    .panel-footer
+      %button#again.btn.btn-default{type: "submit"} It's already been done.
+
+:coffee
+  $("button#again").click -> window.generate()
+  window.generate()
+
