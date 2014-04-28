@@ -1,0 +1,19 @@
+$contrast-amount: 5%;
+$body-bg: white;
+$font-family-sans-serif: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$headings-font-weight: boldest;
+$navbar-height: 60px;
+
+$base-color: orange;
+
+$font-size: 14px;
+
+$navbar-inverse-color: white;
+$navbar-inverse-link-color: $navbar-inverse-color;
+// $navbar-inverse-link-active-color: darken($navbar-inverse-color, $contrast-amount);
+$navbar-inverse-link-active-bg: darken(mix($base-color, red, 100% - $contrast-amount), 5%);
+$navbar-inverse-link-hover-bg: lighten($base-color, $contrast-amount);
+
+$background-contrast: 45%;
+$jumbotron-bg: lighten($base-color, $background-contrast);
+$jumbotron-heading-color: white;
