@@ -130,21 +130,21 @@ exchange_programs = [
 
 heroes = [
   {
-    region: "mid-west",
-    type: "farm boy",
-    character: "noble",
+    region: "mid-west"
+    type: "farm boy"
+    character: "noble"
     fatal_flaw: "naivity"
   },
   {
-    region: "Florida",
-    type: "trouble-maker",
-    character: "flawed",
+    region: "Florida"
+    type: "trouble-maker"
+    character: "flawed"
     fatal_flaw: "stupidity"
   },
   {
-    region: "New Hampshire",
-    type: "Ivy League student",
-    character: "preppy",
+    region: "New Hampshire"
+    type: "Ivy League student"
+    character: "preppy"
     fatal_flaw: "arrogance"
   }
 ]
